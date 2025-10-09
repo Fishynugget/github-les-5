@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class MusicPlayer : MonoBehaviour
 {
+    bool IsPlaying = true;
+    string songName = "Fallen Down";
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -11,14 +13,31 @@ public class MusicPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        SetVolume(50);
+        SetVolume();
+        PlaySong();
+        StopSong();
+
+        string GetCurrentSong = songName;
+
+        if (Input.GetKeyDown(KeyCode.C)){
+            Debug.Log("Current song: " + GetCurrentSong);
+        }
+        
+        if (Input.GetKeyDown(KeyCode.I)){
+         if (IsPlaying == true){
+            Debug.Log("Is playing: True");
+         }
+         else if (IsPlaying == false){
+            Debug.Log("Is playing: False");
+         }}
     }
 
-    void PlaySong(string songName = "Fallen Down")
+    void PlaySong()
     {
       if (Input.GetKeyDown(KeyCode.P))
       {
-        //play song
+        Debug.Log("Playing song:" + songName);
+        IsPlaying = true;
       }
     }
     
@@ -26,7 +45,8 @@ public class MusicPlayer : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.S))
         {
-            //stop song
+            Debug.Log("Song stopped");
+            IsPlaying = false;
         }
 
     }
