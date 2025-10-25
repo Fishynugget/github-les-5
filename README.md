@@ -4,7 +4,11 @@
 
 ## Opdracht 1.1
 
+[gif1.1](1.1_gdv.gif)
+
 ## Opdracht 1.2
+
+[gif1.2](1.2_gdv.gif)
 
 ## Opdracht 2.1
 
