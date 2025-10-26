@@ -8,7 +8,7 @@ public class MusicPlayer : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        SetVolume(50);
+        
     }
 
     // Update is called once per frame
@@ -27,9 +27,11 @@ public class MusicPlayer : MonoBehaviour
         PlaySong("hahahah");
 
      }
-
-        PlaySong();
+     if(Input.GetKeyDown(KeyCode.S)){
         StopSong();
+     }
+
+        
 
         
         
