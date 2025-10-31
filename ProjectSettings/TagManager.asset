@@ -6,6 +6,9 @@ TagManager:
   tags:
   - coin
   - Floor
+  - Door
+  - Key
+  - Wall
   layers:
   - Default
   - TransparentFX
