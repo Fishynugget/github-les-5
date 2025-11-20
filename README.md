@@ -87,3 +87,10 @@
 ![gif6.1](M1-gifs/6.1_gdv.gif)
 ### [Voor de coin](PROG_opdrachten\Assets\scripts\CoinVerdwijn.cs)
 ### [Voor de player](PROG_opdrachten\Assets\scripts\PlayerMove_Jump.cs)
+
+.....................
+
+## Module 2: Opdracht 1.2: Herhaling basis C#
+### Van een array een bewerkbaar lijstje gemaakt in de inspector in Unity.
+![gif-M2-1.2](M2_gdv_1.2.gif)
+### [Array in inspector](PROG_opdrachten\Assets\scripts\RandomItem.cs)
